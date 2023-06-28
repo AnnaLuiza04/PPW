@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Atividade 18.3</title>
+    </head>
+    <body style="margin:0px 20px 0px 20px">
+        &nbsp;
+        <h1 align="center">Escola Virtual</h1></br>
+        <h2 align="center">Formulário de Pré-Matricula</h2>
+        <hr/>
+        <table border="1" width="100%">
+            <tr>
+                <td><strong>Dados pessoais:</strong>
+                    <table width="90%">
+                        <tr>
+                            <td align="right">Nome do aluno</td><td><input type="text" name="al_nm"></td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                Nascimento(dd/mm/aa):</td><td><input type="text" size="5%" inputmode="numeric" name="dia" maxlength="2">/
+                                <input type="text" size="5%" inputmode="numeric" name="mes" maxlength="2">/
+                                <input type="text" size="5%" inputmode="numeric" name="ano" maxlength="4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                Nome da mãe:</td><td><input type="text" name="nm_mae">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                Nome do pai:</td><td><input type="text" name="nm_pai">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                telefone:DDD</td><td>(<input type="text" name="ddd" size="2%" inputmode="numeric" maxlength="2">)
+                                &nbsp;
+                                tel:<input type="text" size="10%" name="tel" inputmode="numeric" maxlength="9">
+                                &nbsp;
+                                ramal:<input type="text" size="6%" name="rml" inputmode="numeric" maxlength="9">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                Email:</td><td><input type="email" name="email" size="25%"></td>
+                        </tr>
+                    </table>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Informações de matrícula:</strong>
+                <table width="100%">
+                    <tr>
+                        <td style="vertical-align: top;">
+                            Série:</br><select size="1">
+                                <option value="1">pré-escolar</option>
+                                <option value="2">1° ano</option>
+                                <option value="3">2° ano</option>
+                                <option value="4">3° ano</option>
+                                <option value="5">4° ano</option>
+                                <option value="6">5° ano</option>
+                                <option value="7">6° ano</option>
+                                <option value="8">7° ano</option>
+                                <option value="9">8° ano</option>
+                                <option value="10">9° ano</option>
+                                <option value="11">1° ano - médio</option>
+                                <option value="12">2° ano - médio</option>
+                                <option value="13">3° ano - médio</option>
+                            </select>
+                        </td>
+                        <td style="vertical-align: top;">turno:</br>
+                            <input type="radio" name="manha">Manhã</br>
+                            <input type="radio" nome="tarde">Tarde
+                        </td>
+                        <td style="vertical-align: top;">Atividades extracurriculaes</br>
+                        <input type="checkbox" name="op1">Informática
+                        </br>
+                        <input type="checkbox" name="op2">Música
+                        </br>
+                        <input type="checkbox" name="op3">Ballet
+                        </br>
+                        <input type="checkbox" name="op4">Pintura
+                        </br>
+                        <input type="checkbox" name="op5">Judô
+                        </br>
+                        <input type="checkbox" name="op6">Futebol
+                        </td>
+                    </tr>
+                </table>
+        </tr>
+        </table>
+        <p align="center">
+            <input type="submit" name="bt_enviar" value="Enviar formulário">
+            <input type="reset" name="bt_limpar" value="Limpar campos">
+        </p>
+    </body>
+</html>
